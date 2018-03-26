@@ -4,49 +4,91 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="tw.edu.ntut.a102590007.androidhw.MainActivity">
+    tools:context="edu.ntut.user.myhw3.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtSex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sex"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
-    <EditText
-        android:id="@+id/editSex"
+    <Spinner
+        android:id="@+id/spnSex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hint_sex"
-        android:inputType="textPersonName" />
+        android:entries="@array/sex_list"
+        android:prompt="@string/spn_sex_list_promt"
+        android:spinnerMode="dialog" />
 
     <TextView
+        android:id="@+id/txtAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/age"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
-    <EditText
-        android:id="@+id/editAge"
+    <RadioGroup
+        android:id="@+id/radGrpAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radBtnAgeRange1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/maleAgeRange1" />
+
+        <RadioButton
+            android:id="@+id/radBtnAgeRange2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/maleAgeRange2" />
+
+        <RadioButton
+            android:id="@+id/radBtnAgeRange3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/maleAgeRange3" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hint_age"
-        android:inputType="textPersonName" />
+        android:text="@string/family"
+        tools:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtNumFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number" />
+
+    <NumberPicker
+        android:id="@+id/numPkrFamply"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="確定" />
+        android:text="@string/btnOK"
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/txtR"
+        android:id="@+id/txtSug"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/suggestion"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
+
 </LinearLayout>
