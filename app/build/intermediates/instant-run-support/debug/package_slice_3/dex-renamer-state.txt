@@ -1,0 +1,4 @@
+#Mon Apr 16 16:49:12 CST 2018
+base.0=E\:\\Git\\SampleCode-Unit023\\SampleCode-Unit023\\Unit023-GalleryUsingViewAnimation\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
