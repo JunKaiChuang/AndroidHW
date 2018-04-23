@@ -1,0 +1,4 @@
+#Mon Apr 23 17:16:50 CST 2018
+base.0=E\:\\Git\\Unit030-GameUsingDynamicFragmentImprovedStructure\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
