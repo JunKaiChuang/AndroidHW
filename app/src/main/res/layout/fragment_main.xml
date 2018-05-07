@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_title"
+        android:textSize="40sp"
+        android:textColor="#FF00FF"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+
+    <ImageView android:id="@+id/imgViewComPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dice01"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnRollDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgViewComPlay"
+        android:layout_centerHorizontal="true"
+        android:text="@string/roll_dice"
+        android:textSize="20sp" />
+
+    <TextView android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_below="@id/btnRollDice"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#0000FF" />
+
+    <Button
+        android:id="@+id/btnShowResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResult"
+        android:layout_centerHorizontal="true"
+        android:text="顯示局數統計資料"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>
