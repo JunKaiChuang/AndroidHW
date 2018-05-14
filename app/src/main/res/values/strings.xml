@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">作業八:莊鈞凱</string>
+    <string name="txtDateTime">日期:</string>
+    <string-array name="mealList">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+</resources>
