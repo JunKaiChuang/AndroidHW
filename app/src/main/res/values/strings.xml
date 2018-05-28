@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">作業十:莊鈞凱</string>
+    <string name="search">Search contact</string>
+    <string-array name="typeOfPhoneNum">
+        <item>mobile</item>
+        <item>home</item>
+        <item>office</item>
+    </string-array>
+</resources>
